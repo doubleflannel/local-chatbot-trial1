@@ -35,7 +35,7 @@ const vectorstore = new VoyVectorStore(voyClient, embeddings);
 const ollama = new ChatOllama({
   baseUrl: "http://localhost:11435",
   temperature: 0.1,
-  model: "mixtral",
+  model: "mistral",
 });
 
 const RESPONSE_SYSTEM_TEMPLATE = `You are an experienced researcher, expert at interpreting and answering questions based on provided sources. Using the provided context, answer the user's question to the best of your ability using the resources provided.

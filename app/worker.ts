@@ -25,7 +25,7 @@ import {
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 
 const embeddings = new HuggingFaceTransformersEmbeddings({
-  modelName: "Xenova/all-MiniLM-L6-v2",
+  modelName: "nomic-ai/nomic-embed-text-v1",
   // Can use "nomic-ai/nomic-embed-text-v1" for more powerful but slower embeddings
   // Can use "Xenova/all-MiniLM-L6-v2" for less powerful but faster embeddings
 });
@@ -35,7 +35,7 @@ const vectorstore = new VoyVectorStore(voyClient, embeddings);
 const ollama = new ChatOllama({
   baseUrl: "http://localhost:11435",
   temperature: 0.1,
-  model: "tinyllama",
+  model: "mistral",
 });
 
 const RESPONSE_SYSTEM_TEMPLATE = `You are an experienced researcher, expert at interpreting and answering questions based on provided sources. Using the provided context, answer the user's question to the best of your ability using the resources provided.

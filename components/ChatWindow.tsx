@@ -160,7 +160,7 @@ export function ChatWindow(props: {
     <>
       <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden flex flex-col">
         <h1 className="text-3xl md:text-4xl mb-2 ml-auto mr-auto">
-          🆔 Indigo - Local Chat with Documents 🆔
+          🆔 Indigo - Local Chat with Documents
         </h1>
         <h3 className="text-xl mb-4 ml-auto mr-auto">
           <a target="_blank" href="https://github.com/tantaraio/voy">Voy</a> + <a target="_blank" href="https://ollama.ai/">Ollama</a> + <a target="_blank" href="https://js.langchain.com">LangChain.js</a> + <a target="_blank" href="https://huggingface.co/docs/transformers.js/index">Transformers.js</a>

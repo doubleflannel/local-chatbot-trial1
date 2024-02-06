@@ -163,7 +163,7 @@ export function ChatWindow(props: {
           🆔 Indigo - Local Chat with Documents 🆔
         </h1>
         <h3 className="text-xl mb-4 ml-auto mr-auto">
-          <a target="_blank" href="https://github.com/tantaraio/voy">🦀 Voy</a> + <a target="_blank" href="https://ollama.ai/">🦙 Ollama</a> + <a target="_blank" href="https://js.langchain.com">🦜🔗 LangChain.js</a> + <a target="_blank" href="https://huggingface.co/docs/transformers.js/index">🤗 Transformers.js</a>
+          <a target="_blank" href="https://github.com/tantaraio/voy">Voy</a> + <a target="_blank" href="https://ollama.ai/">Ollama</a> + <a target="_blank" href="https://js.langchain.com">LangChain.js</a> + <a target="_blank" href="https://huggingface.co/docs/transformers.js/index">Transformers.js</a>
         </h3>
         <ul>
           <li>

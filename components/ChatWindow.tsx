@@ -176,7 +176,7 @@ export function ChatWindow(props: {
               <br/>
               Then, in another macOS Terminal window:
               <br/>
-              <pre className="inline-flex px-2 py-1 my-2 rounded">OLLAMA_HOST=127.0.0.1:11435 ollama pull mixtral</pre>
+              <pre className="inline-flex px-2 py-1 my-2 rounded">OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral</pre>
             </span>
           </li>
         </ul>
